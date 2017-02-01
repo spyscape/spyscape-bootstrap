@@ -21,3 +21,14 @@ Include the webfonts:
 ```
 <link href="https://fonts.googleapis.com/css?family=Lato:300,700" rel="stylesheet">
 ```
+
+# Development
+
+```
+gem install bundler
+bundle install
+npm install
+grunt
+open index.html
+grunt watch
+```
