@@ -12,7 +12,7 @@ module.exports = function(grunt) {
           ]
         },
         files: {
-          'dist/main.css': 'scss/main.scss'
+          'dist/main.css': 'assets/stylesheets/main.scss'
         }
       }
     },
@@ -35,7 +35,7 @@ module.exports = function(grunt) {
         tasks: ['pug']
       },
       styles: {
-        files: 'scss/*.scss',
+        files: 'assets/stylesheets/*.scss',
         tasks: 'sass'
       }
     }
