@@ -1,0 +1,27 @@
+{
+  "name": "spyscape-bootstrap",
+  "version": "0.0.1",
+  "description": "Spyscape bootstrap theme",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/spyscape/spyscape-bootstrap.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/spyscape/spyscape-bootstrap/issues"
+  },
+  "homepage": "https://github.com/spyscape/spyscape-bootstrap#readme",
+  "devDependencies": {
+    "bootstrap": "^4.0.0-alpha.6",
+    "grunt": "^1.0.1",
+    "grunt-contrib-pug": "^1.0.0",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "pug": "^2.0.0-beta10"
+  }
+}

@@ -1,0 +1,32 @@
+$blue:   #0E1A2D;
+$cyan:   #31A9E0;
+$yellow: #BC982C;
+$gray:   #3E3E3F;
+
+// Create grayscale
+$gray-dark:     darken($gray, 10%);
+$gray-light:    lighten($gray, 15%);
+$gray-lighter:  lighten($gray, 35%);
+$gray-lightest: lighten($gray, 55%);
+
+// Reassign color vars to semantic color scheme
+$brand-primary: $cyan;
+$brand-inverse: $gray;
+
+$body-color:    $gray;
+
+$font-family-sans-serif: 'Lato', -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+$font-weight-normal: 300;
+
+$headings-font-family: 'Spyscape', -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+$headings-font-weight: normal;
+
+$display-font-family: 'Spyscape Redacted One', -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+$display-weight: normal;
+$display1-weight: $display-weight;
+$display2-weight: $display-weight;
+$display3-weight: $display-weight;
+$display4-weight: $display-weight;
+
+$link-color:       $brand-primary;
+$link-hover-color: saturate(darken($link-color, 10%), 10%);

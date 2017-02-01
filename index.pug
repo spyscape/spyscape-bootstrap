@@ -1,0 +1,55 @@
+doctype html
+html(lang='en')
+  head
+    title= Docs
+    meta(charset='utf-8')
+
+    link(href='dist/main.css', media='screen', rel='stylesheet', type='text/css')
+    link(href='https://fonts.googleapis.com/css?family=Lato:300,700', rel='stylesheet')
+  body
+    header.navbar.navbar-light.navbar-toggleable-md
+      nav.container
+        .d-flex.justify-content-between.hidden-lg-up
+          a.navbar-brand(href="/") Spyscape
+          button.navbar-toggler(type="button", data-toggle="collapse", data-target="#bd-main-nav")
+
+        .collapse.navbar-collapse#bd-main-nav
+          ul.nav.navbar-nav
+            li.nav-item.active
+              a.nav-item.nav-link(href="/") Spyscape
+            li.nav-item
+              a.nav-item.nav-link(href="/examples/") Examples
+            li.nav-item
+              a.nav-item.nav-link(href="/themes/") Themes
+            li.nav-item
+              a.nav-item.nav-link(href="/test/") Test
+
+    .ss-pageheader
+      .container
+        h1.display-1 Hero title
+        p.lead hero text
+
+    main#content
+      .container
+        h1 Typography
+        p Paragraph text. Vivamus sagittis lacus vel augue laoreet rutrum 
+          a(href="/test") faucibus dolor auctor.
+          Duis mollis, est non commodo luctus.
+
+        h2 Headings
+        h1 h1. heading
+        h2 h2. heading
+        h3 h3. heading
+        h4 h4. heading
+        h5 h5. heading
+        h6 h6. heading
+
+        h2 Display headings
+        h1.display-1 Display 1
+        h1.display-2 Display 2
+        h1.display-3 Display 3
+        h1.display-4 Display 4
+
+        h2 Lead paragraph
+        p.lead Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus.
+
