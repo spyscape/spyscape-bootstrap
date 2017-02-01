@@ -19,7 +19,7 @@ Include in your bundle:
 Include the webfonts:
 
 ```
-<link href="https://fonts.googleapis.com/css?family=Lato:300,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
 ```
 
 # Development
