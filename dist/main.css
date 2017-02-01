@@ -6643,12 +6643,12 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
 
 @font-face {
   font-family: 'Spyscape';
-  src: url("../fonts/spyscape-regular-webfont.woff2") format("woff2"), url("../fonts/spyscape-regular-webfont.woff") format("woff");
+  src: url("https://d1u6rdq748d7cc.cloudfront.net/fonts/spyscape-regular-webfont.woff2") format("woff2"), url("https://d1u6rdq748d7cc.cloudfront.net/fonts/spyscape-regular-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal; }
 @font-face {
   font-family: 'Spyscape Redacted One';
-  src: url("../fonts/spyscaperedactedone-regular-webfont.woff2") format("woff2"), url("../fonts/spyscaperedactedone-regular-webfont.woff") format("woff");
+  src: url("https://d1u6rdq748d7cc.cloudfront.net/fonts/spyscaperedactedone-regular-webfont.woff2") format("woff2"), url("https://d1u6rdq748d7cc.cloudfront.net/fonts/spyscaperedactedone-regular-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal; }
 .display-1, .display-2, .display-3, .display-4 {
