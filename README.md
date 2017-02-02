@@ -9,11 +9,11 @@ Gemfile:
 Include in your bundle:
 
 ```
-// Important that spyscape-bootstrap/variables is imported before bootstrap
+// Important that spyscape/variables is imported before bootstrap
 // in order to override bootstrap defaults.
-@import 'spyscape-bootstrap/variables';
+@import 'spyscape/variables';
 @import 'bootstrap';
-@import 'spyscape-bootstrap/base';
+@import 'spyscape/base';
 ```
 
 Include the webfonts:
