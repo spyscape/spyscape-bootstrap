@@ -4,7 +4,7 @@ NPM:
 `npm install spyscape/spyscape-bootstrap`
 
 Gemfile:
-`...`
+`gem "spyscape-bootstrap", :git => "git@github.com:spyscape/spyscape-bootstrap.git"`
 
 Include in your bundle:
 
