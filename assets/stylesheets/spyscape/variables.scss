@@ -3,6 +3,18 @@ $cyan:   #31A9E0;
 $yellow: #BC982C;
 $gray:   #3E3E3F;
 
+$enable-rounded:           false;
+$enable-shadows:           false;
+$enable-gradients:         false;
+$enable-transitions:       true;
+$enable-hover-media-query: false;
+$enable-grid-classes:      true;
+$enable-print-styles:      true;
+
+$font-size-lg: 1.25rem;
+$font-size-sm: .875rem;
+$font-size-xs: .8rem;
+
 // Create grayscale
 $gray-dark:     darken($gray, 10%);
 $gray-light:    lighten($gray, 45%);
@@ -17,6 +29,7 @@ $body-color:    $gray;
 
 $font-family-sans-serif: 'Lato', -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 $font-weight-normal: normal;
+$font-weight-bold: bold;
 
 $headings-font-family: 'Spyscape', -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 $headings-font-weight: normal;
@@ -30,3 +43,13 @@ $display4-weight: $display-weight;
 
 $link-color:       $brand-primary;
 $link-hover-color: saturate(darken($link-color, 10%), 10%);
+
+$btn-padding-x-sm:               1rem;
+$btn-padding-x:                  1.5rem;
+$btn-padding-x-lg:               2rem;
+$btn-padding-y-sm:               0;
+$btn-padding-y:                  .25rem;
+$btn-padding-y-lg:               .5rem;
+
+$btn-line-height:                30px;
+$btn-font-weight:                $font-weight-bold;

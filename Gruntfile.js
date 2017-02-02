@@ -35,7 +35,7 @@ module.exports = function(grunt) {
         tasks: ['pug']
       },
       styles: {
-        files: 'assets/stylesheets/*.scss',
+        files: 'assets/stylesheets/**/*.scss',
         tasks: 'sass'
       }
     }

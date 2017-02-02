@@ -3,3 +3,9 @@
 .display-1, .display-2, .display-3, .display-4 {
   font-family: $display-font-family;
 }
+
+.btn {
+  font-size: $font-size-xs;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
