@@ -1,7 +1,10 @@
+$spacer: 1rem;
+
 $blue:   #0E1A2D;
 $cyan:   #31A9E0;
 $yellow: #BC982C;
 $gray:   #3E3E3F;
+$white:  #FFFFFF;
 
 $enable-rounded:           false;
 $enable-shadows:           false;
@@ -32,7 +35,7 @@ $gray-lightest: lighten($gray, 85%);
 
 // Reassign color vars to semantic color scheme
 $brand-primary: $cyan;
-$brand-inverse: $gray;
+$brand-inverse: $blue;
 
 $body-color:    $gray;
 
@@ -62,3 +65,11 @@ $btn-padding-y-lg:               .5rem;
 
 $btn-line-height:                30px;
 $btn-font-weight:                $font-weight-bold;
+
+$navbar-padding-x: $spacer;
+$navbar-padding-y: 0.8rem;
+
+$navbar-inverse-color:       rgba($white,.6);
+$navbar-inverse-hover-color: rgba($white,1);
+
+$nav-link-padding: .5em 1em;

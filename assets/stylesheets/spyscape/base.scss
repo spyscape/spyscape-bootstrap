@@ -9,3 +9,39 @@
   text-transform: uppercase;
   letter-spacing: 0.1em;
 }
+
+.navbar {
+  font-size:      $font-size-xs;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+
+  * {
+    transition: all 0.25s;
+  }
+}
+
+.navbar-toggleable-md {
+  @include media-breakpoint-up(xs) {
+    .navbar-nav {
+      .nav-link {
+        padding-right: 1rem;
+        padding-left: 1rem;
+      }
+    }
+  }
+}
+
+.navbar-brand {
+  path {
+    fill: white;
+  }
+
+  &:hover path {
+    fill: $cyan;
+  }
+}
+
+#logomark {
+  height: 25px;
+  display: block;
+}
