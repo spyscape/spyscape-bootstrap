@@ -7,22 +7,27 @@ html(lang='en')
     link(href='dist/main.css', media='screen', rel='stylesheet', type='text/css')
     link(href='https://fonts.googleapis.com/css?family=Lato:400,700', rel='stylesheet')
   body
-    header.navbar.navbar-light.navbar-toggleable-md
-      nav.container
-        .d-flex.justify-content-between.hidden-lg-up
-          a.navbar-brand(href="/") Spyscape
-          button.navbar-toggler(type="button", data-toggle="collapse", data-target="#bd-main-nav")
+    nav.navbar.navbar-toggleable-md.navbar-inverse.bg-inverse.mb-5
+      .container
+        button.navbar-toggler.navbar-toggler-right(type='button', data-toggle='collapse', data-target='#navbarNavDropdown')
+          span.navbar-toggler-icon
 
-        .collapse.navbar-collapse#bd-main-nav
-          ul.nav.navbar-nav
+        a.navbar-brand(href='#')
+          include images/logos/logomark-white.svg
+
+        #navbarNavDropdown.collapse.navbar-collapse
+          ul.navbar-nav.mr-auto
             li.nav-item.active
-              a.nav-item.nav-link(href="/") Spyscape
+              a.nav-link(href='#') Home
             li.nav-item
-              a.nav-item.nav-link(href="/examples/") Examples
+              a.nav-link(href='#') Features
             li.nav-item
-              a.nav-item.nav-link(href="/themes/") Themes
-            li.nav-item
-              a.nav-item.nav-link(href="/test/") Test
+              a.nav-link(href='#') Pricing
+          ul.navbar-nav
+            li.nav-item.dropdown
+              a.nav-link.dropdown-toggle(href='#') Dan Hart
+              .dropdown-menu
+                a.dropdown-item(href="#") Logout
 
     .ss-pageheader
       .container
