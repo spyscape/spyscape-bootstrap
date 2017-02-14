@@ -6503,4 +6503,8 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
   height: 25px;
   display: block; }
 
+hr {
+  margin-top: 3rem;
+  margin-bottom: 3rem; }
+
 /*# sourceMappingURL=main.css.map */
