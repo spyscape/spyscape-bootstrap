@@ -37,7 +37,7 @@ $gray-lightest: lighten($gray, 85%);
 $brand-primary: $cyan;
 $brand-inverse: $blue;
 
-$body-color:    $gray;
+$body-color:    lighten($gray, 7%);
 
 $font-family-sans-serif: 'Lato', -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 $font-weight-normal: normal;
@@ -45,6 +45,7 @@ $font-weight-bold: bold;
 
 $headings-font-family: 'Spyscape', -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 $headings-font-weight: normal;
+$headings-color:       $gray;
 
 $display-font-family: 'Spyscape Redacted One', -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 $display-weight: normal;
