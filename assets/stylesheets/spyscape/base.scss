@@ -45,3 +45,8 @@
   height: 25px;
   display: block;
 }
+
+hr {
+  margin-top: $spacer * 3;
+  margin-bottom: $spacer * 3;
+}
