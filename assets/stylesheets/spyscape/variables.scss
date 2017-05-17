@@ -1,3 +1,5 @@
+// All available variables can be found at:
+// https://github.com/twbs/bootstrap/blob/v4-dev/scss/_variables.scss
 $spacer: 1rem;
 
 $blue:   #0E1A2D;
@@ -6,7 +8,7 @@ $yellow: #BC982C;
 $gray:   #3E3E3F;
 $white:  #FFFFFF;
 
-$enable-rounded:           false;
+$enable-rounded:           true;
 $enable-shadows:           false;
 $enable-gradients:         false;
 $enable-transitions:       true;
@@ -74,3 +76,18 @@ $navbar-inverse-color:       rgba($white,.6);
 $navbar-inverse-hover-color: rgba($white,1);
 
 $nav-link-padding: .5em 1em;
+
+// Forms
+$input-padding-x:                  1.14rem !default;
+$input-padding-y:                  .81rem !default;
+$input-border-color:               #1b1f2c !default;
+$input-border-radius:              2px !default;
+$input-border-focus:               $input-border-color !default;
+$form-group-margin-bottom:         1.875rem !default;
+$custom-select-color:              #fff !default;
+$custom-select-bg:                 #767980 !default;
+$custom-select-indicator-color:    #fff !default;
+$custom-select-border-color:       $custom-select-bg !default;
+$custom-select-border-radius:      $input-border-radius !default;
+$custom-select-focus-border-color: $custom-select-border-color !default;
+$custom-select-focus-box-shadow:   none !default;
