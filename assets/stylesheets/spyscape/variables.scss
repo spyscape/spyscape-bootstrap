@@ -1,3 +1,5 @@
+// All available variables can be found at:
+// https://github.com/twbs/bootstrap/blob/v4-dev/scss/_variables.scss
 $spacer: 1rem;
 
 $blue:   #0E1A2D;
@@ -6,7 +8,7 @@ $yellow: #BC982C;
 $gray:   #3E3E3F;
 $white:  #FFFFFF;
 
-$enable-rounded:           false;
+$enable-rounded:           true;
 $enable-shadows:           false;
 $enable-gradients:         false;
 $enable-transitions:       true;
@@ -57,15 +59,19 @@ $display4-weight: $display-weight;
 $link-color:       $brand-primary;
 $link-hover-color: saturate(darken($link-color, 10%), 10%);
 
-$btn-padding-x-sm:               1rem;
-$btn-padding-x:                  1.5rem;
-$btn-padding-x-lg:               2rem;
-$btn-padding-y-sm:               0;
-$btn-padding-y:                  .25rem;
-$btn-padding-y-lg:               .5rem;
+$btn-padding-x-sm:     1rem;
+$btn-padding-x:        1.5rem;
+$btn-padding-x-lg:     2rem;
+$btn-padding-y-sm:     0;
+$btn-padding-y:        .25rem;
+$btn-padding-y-lg:     .5rem;
 
-$btn-line-height:                30px;
-$btn-font-weight:                $font-weight-bold;
+$btn-line-height:      30px;
+$btn-font-weight:      $font-weight-bold;
+
+$btn-border-radius:    0;
+$btn-border-radius-lg: 0;
+$btn-border-radius-sm: 0;
 
 $navbar-padding-x: $spacer;
 $navbar-padding-y: 0.8rem;
@@ -74,3 +80,18 @@ $navbar-inverse-color:       rgba($white,.6);
 $navbar-inverse-hover-color: rgba($white,1);
 
 $nav-link-padding: .5em 1em;
+
+// Forms
+$input-padding-x:                  1.14rem;
+$input-padding-y:                  .81rem;
+$input-border-color:               #1b1f2c;
+$input-border-radius:              2px;
+$input-border-focus:               $input-border-color;
+$form-group-margin-bottom:         1.875rem;
+$custom-select-color:              #fff;
+$custom-select-bg:                 #767980;
+$custom-select-indicator-color:    #fff;
+$custom-select-border-color:       $custom-select-bg;
+$custom-select-border-radius:      $input-border-radius;
+$custom-select-focus-border-color: $custom-select-border-color;
+$custom-select-focus-box-shadow:   none;
