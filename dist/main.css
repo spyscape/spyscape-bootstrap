@@ -1950,7 +1950,7 @@ select.form-control-lg:not([size]):not([multiple]), .input-group-lg > select.for
   border: 1px solid transparent;
   padding: 0.25rem 1.5rem;
   font-size: 1rem;
-  border-radius: 0.25rem;
+  border-radius: 0;
   transition: all 0.2s ease-in-out; }
   .btn:focus, .btn:hover {
     text-decoration: none; }
@@ -2217,12 +2217,12 @@ fieldset[disabled] a.btn {
 .btn-lg, .btn-group-lg > .btn {
   padding: 0.5rem 2rem;
   font-size: 1.25rem;
-  border-radius: 0.3rem; }
+  border-radius: 0; }
 
 .btn-sm, .btn-group-sm > .btn {
   padding: 0 1rem;
   font-size: 0.875rem;
-  border-radius: 0.2rem; }
+  border-radius: 0; }
 
 .btn-block {
   display: block;
@@ -2836,7 +2836,7 @@ tbody.collapse.show {
   line-height: 1;
   background: transparent;
   border: 1px solid transparent;
-  border-radius: 0.25rem; }
+  border-radius: 0; }
   .navbar-toggler:focus, .navbar-toggler:hover {
     text-decoration: none; }
 
@@ -6643,17 +6643,22 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
 
 @font-face {
   font-family: 'Spyscape';
-  src: url("https://d1u6rdq748d7cc.cloudfront.net/fonts/spyscape-regular-webfont.woff2") format("woff2"), url("https://d1u6rdq748d7cc.cloudfront.net/fonts/spyscape-regular-webfont.woff") format("woff");
+  src: url("https://assets.spyscape.net/fonts/spyscape-regular-webfont.woff2") format("woff2"), url("https://assets.spyscape.net/fonts/spyscape-regular-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal; }
 @font-face {
   font-family: 'Spyscape';
-  src: url("https://d1u6rdq748d7cc.cloudfront.net/fonts/spyscape-bold-webfont.woff2") format("woff2"), url("https://d1u6rdq748d7cc.cloudfront.net/fonts/spyscape-bold-webfont.woff") format("woff");
+  src: url("https://assets.spyscape.net/fonts/spyscape-bold-webfont.woff2") format("woff2"), url("https://assets.spyscape.net/fonts/spyscape-bold-webfont.woff") format("woff");
   font-weight: bold;
   font-style: normal; }
 @font-face {
   font-family: 'Spyscape Redacted One';
-  src: url("https://d1u6rdq748d7cc.cloudfront.net/fonts/spyscaperedactedone-regular-webfont.woff2") format("woff2"), url("https://d1u6rdq748d7cc.cloudfront.net/fonts/spyscaperedactedone-regular-webfont.woff") format("woff");
+  src: url("https://assets.spyscape.net/fonts/spyscaperedactedone-regular-webfont.woff2") format("woff2"), url("https://assets.spyscape.net/fonts/spyscaperedactedone-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'Spyscape Redacted Two';
+  src: url("https://assets.spyscape.net/fonts/spyscaperedactedtwo-regular-webfont.woff2") format("woff2"), url("https://assets.spyscape.net/fonts/spyscaperedactedtwo-regular-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal; }
 .display-1, .display-2, .display-3, .display-4 {
