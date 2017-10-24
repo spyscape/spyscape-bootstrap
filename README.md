@@ -16,11 +16,6 @@ Include in your bundle:
 @import 'spyscape/base';
 ```
 
-Include the webfonts:
-
-```
-<link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
-```
 
 # Development
 
