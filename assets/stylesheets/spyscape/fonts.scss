@@ -29,3 +29,29 @@
     font-weight: normal;
     font-style: normal;
 }
+
+
+@font-face {
+  font-family: "Avenir";
+    src: url("https://assets.spyscape.net/fonts/AvenirLTW04-55Roman.eot?#iefix");
+  src:
+    url("https://assets.spyscape.net/fonts/AvenirLTW04-55Roman.eot?#iefix") format("eot"),
+    url("https://assets.spyscape.net/fonts/AvenirLTW04-55Roman.woff2") format("woff2"),
+    url("https://assets.spyscape.net/fonts/AvenirLTW04-55Roman.woff") format("woff"),
+    url("https://assets.spyscape.net/fonts/AvenirLTW04-55Roman.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: "Avenir";
+  src: url("https://assets.spyscape.net/fonts/AvenirLTW04-85Heavy.eot?#iefix");
+  src:
+    url("https://assets.spyscape.net/fonts/AvenirLTW04-85Heavy.eot?#iefix") format("eot"),
+    url("https://assets.spyscape.net/fonts/AvenirLTW04-85Heavy.woff2") format("woff2"),
+    url("https://assets.spyscape.net/fonts/AvenirLTW04-85Heavy.woff") format("woff"),
+    url("https://assets.spyscape.net/fonts/AvenirLTW04-85Heavy.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
