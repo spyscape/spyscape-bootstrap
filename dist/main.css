@@ -6374,6 +6374,11 @@ a.text-dark:focus, a.text-dark:hover {
   font-weight: normal;
   font-style: normal; }
 @font-face {
+  font-family: 'Spyscape Extended';
+  src: url("https://assets.spyscape.net/fonts/spyscape-extended-regular-webfont.woff2") format("woff2"), url("https://assets.spyscape.net/fonts/spyscape-extended-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
   font-family: "Avenir";
   src: url("https://assets.spyscape.net/fonts/AvenirLTW04-55Roman.eot?#iefix");
   src: url("https://assets.spyscape.net/fonts/AvenirLTW04-55Roman.eot?#iefix") format("eot"), url("https://assets.spyscape.net/fonts/AvenirLTW04-55Roman.woff2") format("woff2"), url("https://assets.spyscape.net/fonts/AvenirLTW04-55Roman.woff") format("woff"), url("https://assets.spyscape.net/fonts/AvenirLTW04-55Roman.ttf") format("truetype");
@@ -6387,6 +6392,9 @@ a.text-dark:focus, a.text-dark:hover {
   font-style: normal; }
 .display-1, .display-2, .display-3, .display-4 {
   font-family: "Spyscape Redacted One", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; }
+
+.headings-extended {
+  font-family: "Spyscape Extended", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; }
 
 .btn {
   font-size: 0.8rem;
