@@ -23,7 +23,7 @@ Include in your bundle:
 gem install bundler
 bundle install
 npm install
-grunt
+npm run grunt
 open index.html
-grunt watch
+npm run grunt:watch
 ```

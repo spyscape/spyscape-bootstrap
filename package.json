@@ -4,6 +4,8 @@
   "description": "Spyscape bootstrap theme",
   "main": "index.js",
   "scripts": {
+    "grunt": "grunt",
+    "grunt:watch": "grunt watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,10 +20,10 @@
   "homepage": "https://github.com/spyscape/spyscape-bootstrap#readme",
   "devDependencies": {
     "bootstrap": "^4.0.0-alpha.6",
-    "grunt": "^1.0.1",
+    "grunt": "^1.0.3",
     "grunt-contrib-pug": "^1.0.0",
     "grunt-contrib-sass": "^1.0.0",
-    "grunt-contrib-watch": "^1.0.0",
+    "grunt-contrib-watch": "^1.1.0",
     "pug": "^2.0.0-beta10"
   }
 }
