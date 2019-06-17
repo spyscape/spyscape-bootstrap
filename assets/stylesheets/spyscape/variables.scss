@@ -41,25 +41,54 @@ $brand-inverse: $blue;
 
 $body-color:    lighten($gray, 7%);
 
-$font-family-sans-serif: 'Avenir', -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-$font-weight-normal: normal;
-$font-weight-bold: bold;
+// ---- Typography from Feb 2019 ----
 
-$headings-font-family: 'Spyscape', -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-$headings-font-weight: normal;
-$headings-color:       $gray;
+// Body Copy
 
-$headings-extended-font-family: 'Spyscape Extended', -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-$headings-extended-font-weight: normal;
-$headings-extended-color:       $gray;
+$font-family-sans-serif: 'Spyscape Two', -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+$font-weight-normal: 300; // Light
+$font-weight-bold: 400; // Medium
 
-$display-font-family: 'Spyscape Redacted One', -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-$spyscape-redacted-two-font-family: 'Spyscape Redacted Two', -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+// Subheadings
+
+$headings-font-family: $font-family-sans-serif;
+$headings-font-weight: $font-weight-bold;
+$headings-color: $gray;
+
+// Latin Extended Subheadings
+
+// These glyphs are included in Spyscape Two. All we need to do is remap them
+$headings-extended-font-family: $headings-font-family;
+$headings-extended-font-weight: $headings-font-weight;
+$headings-extended-color: $headings-color;
+
+// Display Headings
+
+$display-font-family: 'Spyscape Two Redacted', -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+$spyscape-redacted-two-font-family: $display-font-family;
+
 $display-weight: normal;
 $display1-weight: $display-weight;
 $display2-weight: $display-weight;
 $display3-weight: $display-weight;
 $display4-weight: $display-weight;
+
+// ---- LEGACY Typography (Deprecated) ----
+
+$LEGACY_font-family-sans-serif: 'Avenir', -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+$LEGACY_font-weight-normal: normal;
+$LEGACY_font-weight-bold: bold;
+
+$LEGACY_headings-font-family: 'Spyscape', -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+$LEGACY_headings-font-weight: normal;
+
+$LEGACY_headings-extended-font-family: 'Spyscape Extended', -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+$LEGACY_headings-extended-font-weight: normal;
+$LEGACY_headings-extended-color: $gray;
+
+$LEGACY_display-font-family: 'Spyscape Redacted One', -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+$LEGACY_spyscape-redacted-two-font-family: 'Spyscape Redacted Two', -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+
 
 $link-color:       $brand-primary;
 $link-hover-color: saturate(darken($link-color, 10%), 10%);

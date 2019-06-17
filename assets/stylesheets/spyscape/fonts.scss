@@ -1,3 +1,44 @@
+
+@font-face {
+  font-family: 'Spyscape Two';
+  src: url('https://assets.spyscape.net/fonts/spyscapetwo-light-webfont.woff2') format('woff2'),
+       url('https://assets.spyscape.net/fonts/spyscapetwo-light-webfont.woff') format('woff');
+  font-weight: 300; // Light
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Spyscape Two';
+  src: url('https://assets.spyscape.net/fonts/spyscapetwo-regular-webfont.woff2') format('woff2'),
+       url('https://assets.spyscape.net/fonts/spyscapetwo-regular-webfont.woff') format('woff');
+  font-weight: 400; // Regular
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Spyscape Two';
+  src: url('https://assets.spyscape.net/fonts/spyscapetwo-medium-webfont.woff2') format('woff2'),
+       url('https://assets.spyscape.net/fonts/spyscapetwo-medium-webfont.woff') format('woff');
+  font-weight: 500; // Medium
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Spyscape Two';
+  src: url('https://assets.spyscape.net/fonts/spyscapetwo-bold-webfont.woff2') format('woff2'),
+       url('https://assets.spyscape.net/fonts/spyscapetwo-bold-webfont.woff') format('woff');
+  font-weight: 700; // Bold
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Spyscape Two Redacted';
+  src: url('https://assets.spyscape.net/fonts/spyscapetwo-redacted-webfont.woff2') format('woff2'),
+       url('https://assets.spyscape.net/fonts/spyscapetwo-redacted-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 @font-face {
     font-family: 'Spyscape';
     src: url('https://assets.spyscape.net/fonts/spyscape-regular-webfont.woff2') format('woff2'),
