@@ -18,10 +18,10 @@
   "homepage": "https://github.com/spyscape/spyscape-bootstrap#readme",
   "devDependencies": {
     "bootstrap": "^4.0.0-alpha.6",
-    "grunt": "^1.0.1",
+    "grunt": "^1.0.4",
     "grunt-contrib-pug": "^1.0.0",
     "grunt-contrib-sass": "^1.0.0",
-    "grunt-contrib-watch": "^1.0.0",
-    "pug": "^2.0.0-beta10"
+    "grunt-contrib-watch": "^1.1.0",
+    "pug": "^2.0.4"
   }
 }
