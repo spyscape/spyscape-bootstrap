@@ -28,6 +28,12 @@ open index.html
 grunt watch
 ```
 
+# Releasing a new version
+
+1. As part of your PR, bump the version in `package.json`, following semantic versioning.
+2. After the PR gets merged, pull `master` and run `git tag -a "NEW_VERSION_NUMBER" -m "NEW_VERSION_NUMBER"`, where `NEW_VERSION_NUMBER` is the version you bumped to in `package.json`.
+3. `git push --tags`
+
 # Spyscape legacy font deprecation
 
 As of Feb 2019, the original Spyscape fonts have been deprecated in favour of the new font,
